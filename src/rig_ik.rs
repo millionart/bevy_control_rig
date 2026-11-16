@@ -24,7 +24,7 @@ fn default_meters_per_unit() -> f64 {
     1.0
 }
 
-pub(crate) fn source_vector_dot(a: DVec3, b: DVec3) -> f64 {
+pub fn source_vector_dot(a: DVec3, b: DVec3) -> f64 {
     (a.x * b.x + a.z * b.z) + a.y * b.y
 }
 

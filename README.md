@@ -22,6 +22,6 @@ fn main() {
 
 Use Control Rig alongside Bevy Animation Graph, following the separation between Control Rig and animation graphs in Unreal Engine. A graph node provides its input pose and curves, evaluates the rig at the appropriate lifecycle stage, and returns the edited pose. The same rig can run directly in a Bevy system. The compatible Bevy 0.20.1 revision is [Bevy Animation Graph 0.11.0](https://github.com/millionart/bevy_animation_graph/tree/6d706f61c35a6cf7b1c96430a56ae46241b4d51f).
 
-The rig owns its mutable bone state and registers per instance. The caller supplies the frame's input pose and decides when to run construction and forward solve. Use the definition's `meters_per_unit` when binding registers and executing a program. A caller that consumes serialized unit names can map them to the identifiers accepted by `RigUnitContext::call`.
+The rig owns its mutable bone state and registers per instance. The caller supplies the frame's input pose and decides when to run construction and forward solve. Use the definition's `meters_per_unit` when binding registers and executing a program. Built-in units use their Unreal Engine identifiers, such as `FRigUnit_TwoBoneIKSimplePerItem::Execute`. Applications can dispatch their own units through the program's unit callback.
 
 Licensed under either MIT or Apache-2.0 at your option.
