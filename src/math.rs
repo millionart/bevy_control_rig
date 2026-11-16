@@ -1,7 +1,5 @@
-use bevy::{
-    math::{DQuat, DVec3},
-    prelude::Reflect,
-};
+use bevy::prelude::Reflect;
+use bevy_math::{DQuat, DVec3};
 use serde::{Deserialize, Serialize};
 
 pub fn rig_damper_alpha(delta_seconds: f32, half_life: f32) -> f32 {

@@ -1,7 +1,5 @@
-use bevy::{
-    math::{DQuat, DVec3},
-    platform::collections::HashMap,
-};
+use bevy::platform::collections::HashMap;
+use bevy_math::{DQuat, DVec3};
 
 use crate::{
     hierarchy::{RigHierarchy, RigSpace, RigTransform, rig_normalize, rig_quat_near, rig_slerp},

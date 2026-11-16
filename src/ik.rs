@@ -1,4 +1,4 @@
-use bevy::math::{Quat, Vec3};
+use bevy_math::{Quat, Vec3};
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct TwoBoneSolve {

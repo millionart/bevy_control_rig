@@ -8,7 +8,8 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/millionart/bevy_control_rig"
 
 [dependencies]
-bevy = { version = "0.20.1", default-features = false, features = ["std", "serialize"] }
+bevy = { version = "0.20.1", default-features = false, features = ["std"] }
+bevy_math = { version = "0.20.1", default-features = false, features = ["serialize"] }
 serde = { version = "1", features = ["derive"] }
 
 [dev-dependencies]

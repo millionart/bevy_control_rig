@@ -1,7 +1,5 @@
-use bevy::{
-    math::{DMat4, DQuat, DVec3},
-    prelude::Reflect,
-};
+use bevy::prelude::Reflect;
+use bevy_math::{DMat4, DQuat, DVec3};
 use serde::{Deserialize, Serialize};
 
 use crate::{

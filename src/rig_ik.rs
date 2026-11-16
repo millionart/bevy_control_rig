@@ -1,7 +1,5 @@
-use bevy::{
-    math::{DQuat, DVec3},
-    prelude::Reflect,
-};
+use bevy::prelude::Reflect;
+use bevy_math::{DQuat, DVec3};
 use serde::{Deserialize, Serialize};
 
 use crate::math::rig_quat_product;
