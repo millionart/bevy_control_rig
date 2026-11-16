@@ -1,0 +1,16 @@
+[package]
+name = "bevy_control_rig"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97.1"
+description = "Control Rig program execution, skeletal hierarchy, and inverse kinematics for Bevy"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/millionart/bevy_control_rig"
+
+[dependencies]
+bevy = { version = "0.20.1", default-features = false, features = ["std", "serialize"] }
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+ron = "0.10"
+serde_json = { version = "1", features = ["float_roundtrip"] }

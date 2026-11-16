@@ -1,0 +1,409 @@
+{
+  "cases": [
+    {
+      "case": "half_turn_0_-1_1",
+      "runtime_quaternion": [
+        1.0,
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        180.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "case": "half_turn_0_-1_-1",
+      "runtime_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        180.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_0_1_1",
+      "runtime_quaternion": [
+        -1.0,
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        -180.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_0_1_-1",
+      "runtime_quaternion": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        -180.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_1_-1_1",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        180.0,
+        -180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_1_-1_-1",
+      "runtime_quaternion": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        180.0,
+        -180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_1_1_1",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        -1.0,
+        0.0
+      ],
+      "native_euler": [
+        -180,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        -180.0,
+        -180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_1_1_-1",
+      "runtime_quaternion": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "native_euler": [
+        180,
+        180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        180.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_2_-1_1",
+      "runtime_quaternion": [
+        -0.0,
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "native_euler": [
+        0,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        -180.0,
+        -0.0
+      ]
+    },
+    {
+      "case": "half_turn_2_-1_-1",
+      "runtime_quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "native_euler": [
+        0,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        -180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_2_1_1",
+      "runtime_quaternion": [
+        -0.0,
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "native_euler": [
+        0,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        -0.0,
+        -180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "half_turn_2_1_-1",
+      "runtime_quaternion": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "native_euler": [
+        0,
+        -180,
+        0
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        -180.0,
+        0.0
+      ]
+    },
+    {
+      "case": "roll_-179.9999",
+      "runtime_quaternion": [
+        -0.9999999999996192,
+        -0.0,
+        -0.0,
+        8.726646259560915e-07
+      ],
+      "native_euler": [
+        -179.99990000000003,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        -179.99990000000003,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "roll_-180.0001",
+      "runtime_quaternion": [
+        -0.9999999999996192,
+        -0.0,
+        -0.0,
+        -8.726646260556715e-07
+      ],
+      "native_euler": [
+        179.99990000000003,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        179.99990000000003,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "roll_179.9999",
+      "runtime_quaternion": [
+        0.9999999999996192,
+        -0.0,
+        -0.0,
+        8.726646259560915e-07
+      ],
+      "native_euler": [
+        179.99990000000003,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        179.99990000000003,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "case": "roll_180.0001",
+      "runtime_quaternion": [
+        0.9999999999996192,
+        -0.0,
+        -0.0,
+        -8.726646260556715e-07
+      ],
+      "native_euler": [
+        -179.99990000000003,
+        0,
+        0
+      ],
+      "runtime_algebra_euler": [
+        -179.99990000000003,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "pitch_89.9",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        0.706489444943837,
+        0.7077235789366842
+      ],
+      "native_euler": [
+        0,
+        0,
+        89.90000000000346
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        -0.0,
+        89.90000000000346
+      ]
+    },
+    {
+      "case": "pitch_90",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        0.7071067811865475,
+        0.7071067811865476
+      ],
+      "native_euler": [
+        0,
+        0,
+        90
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        -0.0,
+        90.0
+      ]
+    },
+    {
+      "case": "pitch_-89.9",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        -0.706489444943837,
+        0.7077235789366842
+      ],
+      "native_euler": [
+        0,
+        0,
+        -89.90000000000346
+      ],
+      "runtime_algebra_euler": [
+        -0.0,
+        -0.0,
+        -89.90000000000346
+      ]
+    },
+    {
+      "case": "pitch_-90",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "native_euler": [
+        0,
+        0,
+        -90
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        0.0,
+        -90.0
+      ]
+    },
+    {
+      "case": "pitch_37",
+      "runtime_quaternion": [
+        -0.0,
+        -0.0,
+        0.31730465640509214,
+        0.9483236552061993
+      ],
+      "native_euler": [
+        0,
+        0,
+        37
+      ],
+      "runtime_algebra_euler": [
+        0.0,
+        -0.0,
+        37.0
+      ]
+    }
+  ],
+  "runtime_algebra_failures": [
+    "half_turn_0_-1_1",
+    "half_turn_0_-1_-1",
+    "half_turn_1_-1_1",
+    "half_turn_1_-1_-1"
+  ]
+}
